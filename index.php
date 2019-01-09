@@ -1,9 +1,10 @@
 <?php
 
 require_once("config.php");
+
 /*
 $root = new Usuario();
-$root->loadById(5);
+$root->loadById(1);
 */
 
 /*
@@ -15,7 +16,9 @@ $busca = Usuario::serach("Th");
 echo json_encode($busca);
 */
 
+/*
 $usuario = new Usuario();
 $usuario->login("Thiago", "123123");
+*/
 
-echo $usuario;
+//echo $root;
