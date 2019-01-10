@@ -26,8 +26,13 @@ $aluno = new Usuario("aluno", "123123");
 $aluno->insert();
 */
 
+/*
 $usuario = new Usuario();
 $usuario->loadById(1);
+*/
 
+$usuario = new Usuario();
+$usuario->loadById(1);
+$usuario->delete();
 
 echo $usuario;
