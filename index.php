@@ -21,4 +21,13 @@ $usuario = new Usuario();
 $usuario->login("Thiago", "123123");
 */
 
-//echo $root;
+/*
+$aluno = new Usuario("aluno", "123123");
+$aluno->insert();
+*/
+
+$usuario = new Usuario();
+$usuario->loadById(1);
+
+
+echo $usuario;
