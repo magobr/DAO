@@ -32,7 +32,7 @@ $usuario->loadById(1);
 */
 
 $usuario = new Usuario();
-$usuario->loadById(1);
+$usuario->loadById(3);
 $usuario->delete();
 
 echo $usuario;
